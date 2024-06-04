@@ -86,7 +86,6 @@ const gameController = (
       console.log(board.getCellValue(0))
     }
   };
-  // SOMETHING WRONG WITH WINNER CODE
   const checkWinner = () => {
     for (let i = 0; i < winners.length; i++) {
       const element = winners[i];
